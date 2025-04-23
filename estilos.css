@@ -1,0 +1,37 @@
+/* Reset para márgenes y padding de body y html */
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+/* Estilos generales para el body */
+body {
+    display: block;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial;
+    background-color: #f7f7f7;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Contenedor principal para todo el contenido */
+.contenedor {
+    text-align: center;
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Estilos para el título principal (h1) */
+h1 {
+    font-size: 2.5rem;
+    color: rgb(255, 255, 255);
+}
+
+/* Estilos para los parrafos p*/
+p {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+    color: #555;
+}
