@@ -1,37 +1,83 @@
-/* Reset para márgenes y padding de body y html */
+/* Reset básico y estilos generales */
 body, html {
     margin: 0;
     padding: 0;
     height: 100%;
+    font-family: 'Times New Roman', Times, serif;
 }
 
-/* Estilos generales para el body */
+/* Contenedor general centrado */
 body {
-    display: block;
-    justify-content: center;
+    display: flex;
+    flex-direction: column;
     align-items: center;
-    font-family: Arial;
-    background-color: #f7f7f7;
-    color: #333;
-    line-height: 1.6;
-}
-
-/* Contenedor principal para todo el contenido */
-.contenedor {
     text-align: center;
-    background-color: #fff;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
-/* Estilos para el título principal (h1) */
+/* Estilos comunes para párrafos y listas */
+p, ul {
+    font-size: 1em;
+    max-width: 600px;
+    margin: 0 auto 1em auto;
+}
+
+/* Encabezado */
+.encabezado {
+    background-color: rgb(206, 142, 206);
+    padding: 40px 20px;
+    color: white;
+    line-height: 1.5;
+    width: 100%;
+    text-align: center;
+}
+
 h1 {
-    font-size: 2.5rem;
-    color: rgb(255, 255, 255);
+    font-size: 5em;
 }
 
-/* Estilos para los parrafos p*/
-p {
-    font-size: 1.2rem;
-    margin-bottom: 20px;
-    color: #555;
+h2 {
+    font-size: 3em;
+    margin-bottom: 0.2em;
+}
+
+/* Listas de navegación */
+ul {
+    list-style: none;
+    max-width: 200px;
+    margin: 0 auto;
+    text-align: left;
+}
+
+ul li {
+    margin: 0.5em 0;
+}
+
+ul li a {
+    text-decoration: none;
+    color: black;
+}
+
+ul li a:hover {
+    text-decoration: underline;
+}
+
+.sobremi {
+    background-color: rgb(206, 142, 206);
+    padding: 40px 20px;
+    color: white;
+    line-height: 1.5;
+    width: 100%;
+    text-align: center;
+    margin-top: 2em;
+}
+
+.sobremi h3 {
+    font-size: 2em;
+    margin-bottom: 0.5em;
+}
+
+.sobremi p {
+    font-size: 1em;
+    max-width: 600px;
+    margin: 0 auto 1em auto;
 }
