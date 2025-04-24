@@ -1,57 +1,50 @@
 /* Reset básico y estilos generales */
-html, body {
+body, html {
     margin: 0;
     padding: 0;
+    height: 100%;
     font-family: 'Times New Roman', Times, serif;
 }
 
-/* Contenido centrado en columna */
+/* Contenedor general centrado */
 body {
     display: flex;
     flex-direction: column;
     align-items: center;
-}
-
-/* Encabezados */
-h1 {
-    font-size: 5em;
     text-align: center;
-}
-
-h2 {
-    font-size: 3em;
-    margin-bottom: 0.2em;
-    text-align: center;
-}
-
-h3 {
-    font-size: 2em;
-    margin-bottom: 0.5em;
 }
 
 /* Estilos comunes para párrafos y listas */
 p, ul {
     font-size: 1em;
-    max-width: 600px;
     margin: 0 auto 1em auto;
-    line-height: 1.5;
 }
 
-/* Encabezado principal */
+/* Encabezado */
 .encabezado {
     background-color: rgb(206, 142, 206);
     padding: 40px 20px;
     color: white;
+    line-height: 1.5;
     width: 100%;
     text-align: center;
 }
 
-/* Navegación */
+h1 {
+    font-size: 5em;
+}
+
+h2 {
+    font-size: 3em;
+    margin-bottom: 0.2em;
+}
+
+/* Listas de navegación */
 ul {
     list-style: none;
     max-width: 200px;
+    margin: 0 auto;
     text-align: left;
-    padding: 0;
 }
 
 ul li {
@@ -67,22 +60,82 @@ ul li a:hover {
     text-decoration: underline;
 }
 
-/* Secciones */
-.seccion1,
-.seccion2 {
-    padding: 40px 20px;
-    width: 100%;
-    margin-top: 2em;
-    text-align: center;
-    line-height: 1.5;
-}
-
 .seccion1 {
     background-color: rgb(206, 142, 206);
+    padding: 40px 20px;
     color: white;
+    line-height: 1.5;
+    width: 100%;
+    text-align: center;
+    margin-top: 2em;
+}
+
+.seccion1 h3 {
+    font-size: 2em;
+    margin-bottom: 0.5em;
+}
+
+.seccion1 p {
+    font-size: 1em;
+    max-width: 600px;
+    margin: 0 auto 1em auto;
 }
 
 .seccion2 {
-    background-color: white;
+    background-color:white;
+    padding: 40px 20px;
     color: black;
+    line-height: 1.5;
+    width: 100%;
+    text-align: center;
+    margin-top: 2em;
+}
+
+.seccion2 h3 {
+    font-size: 2em;
+    margin-bottom: 0.5em;
+}
+
+.seccion2 p {
+    font-size: 1em;
+    max-width: 600px;
+    margin: 0 auto 1em auto;
+}
+
+.curriculum {
+    background-color: white;
+    padding: 40px 20px;
+    color: black;
+    line-height: 1.5;
+    width: calc(100% - 40px); /* Resta el margen izquierdo y derecho */
+    text-align: left;
+    margin-top: 2em;
+    margin-left: 2em; /* Margen izquierdo de 2 unidades */
+}
+
+/* Estilo para listas dentro de la clase .curriculum */
+.curriculum ul{
+    width: 100%;
+    max-width: none; /* Elimina el límite de ancho */
+    padding-left: 20px;
+    list-style-position: inside; /* Alinea los puntos/íconos dentro de la lista */
+    list-style-type: circle; /* Cambia el tipo de lista a círculo */
+
+}
+
+.curriculum ol {
+    width: 100%;
+    max-width: none; /* Elimina el límite de ancho */
+    padding-left: 20px;
+    list-style-position: inside; /* Alinea los puntos/íconos dentro de la lista */
+    list-style-type: decimal; /* Cambia el tipo de lista a círculo */
+
+}
+
+.curriculum ul li, .curriculum ol li {
+    margin: 0.5em 0;
+}
+
+.curriculum table {
+    border: solid black;
 }
