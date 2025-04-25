@@ -31,11 +31,11 @@ p, ul {
 }
 
 h1 {
-    font-size: 3em; /* Ajustado para ser más flexible */
+    font-size: 3em;
 }
 
 h2 {
-    font-size: 2.5em; /* Ajustado para ser más flexible */
+    font-size: 2.5em;
     margin-bottom: 0.2em;
 }
 
@@ -167,7 +167,7 @@ ul li a:hover {
     flex-direction: column;
     gap: 20px;
     margin-left: 2em;
-    max-width: 900px; /* Máximo ancho para mayor control */
+    max-width: 900px;
 }
 
 .item {
