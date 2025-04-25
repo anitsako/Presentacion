@@ -16,14 +16,15 @@ Este repositorio contiene una página web tipo portfolio personal desarrollada e
 - **Contacto**: Información de contacto y enlaces a redes sociales.
 
 ## 📁 Estructura del repositorio
+
 Presentacion/
-├── index.html          # Página principal
-├── cv.html             # Currículum
-├── proyectos.html      # Proyectos
-├── galeria.html        # Galería de imágenes
-├── estilos.css         # Estilos generales
-├── imagenes/           # Carpeta con imágenes utilizadas
-└── README.md           # Este archivo
+- index.html          # Página principal
+- cv.html             # Currículum
+- proyectos.html      # Proyectos
+- galeria.html        # Galería de imágenes
+- estilos.css         # Estilos generales
+- imagenes/           # Carpeta con imágenes utilizadas
+- README.md           # Este archivo
 
 ## 🚀 Cómo usarlo
 Puedes clonar el repositorio y abrir el archivo `index.html` directamente en tu navegador:
